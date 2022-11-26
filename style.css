@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 a {
     text-decoration: none;
     color: #243e63;
@@ -84,6 +85,7 @@ li {
     color: #6415ff;
 }
 
+
 /* NAVIGATION */
 
 #nav__bar {
@@ -154,4 +156,64 @@ li {
 
 .nav__link:hover {
     border-bottom: 2px solid #6415ff
+}
+
+/* 
+LANDING
+*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 62px 24px;
+}
+
+.landing__page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing__info {
+    width: 40%;
+}
+
+.landing__img {
+    width: 60%;
+}
+
+.landing__para {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 32px 0;
+    width: 100%;
+    color: rgba(36, 62, 99);
+}
+
+.landing__email {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.landing__button {
+    background-color: #6415ff;
+    border-color: #6415ff;
+    color: white;
+    position: absolute;
+    transition: 300ms ease;
+}
+
+.landing__customers {
+    margin-top: 80px;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #243e63;
+}
+
+.landing__customers--img {
+    max-width: 800px;
+    margin-top: 16px;
+    padding-right: 128px;
 }
