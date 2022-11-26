@@ -245,9 +245,42 @@ SERVICES
     text-align: center;
 }
 
-.serice__para {
+.service__para {
 font-size: 18px;
 text-align: center;
 font-weight: 500;
 line-height: 1.625em;
+width: 100%;
+max-width: 576px;
+margin: 32px 0 48px 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__container{
+    padding: 24px;
+    display: flex;
+    width: calc(100% / 3);
+}
+
+.service__container--img {
+    width: 66px;
+    height: 66px;
+    margin: 0;
+    padding: 20px;
+    border: solid #e5e7eb;
+    border-width: 1px;
+    border-radius: 9999px;
+}
+
+.service__img {
+    width: 24px;
+    height: 24px;
+}
+
+.services__text--container {
+    margin: 8px 0 0 16px;
 }
