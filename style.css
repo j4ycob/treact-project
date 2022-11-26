@@ -284,3 +284,16 @@ margin: 32px 0 48px 0;
 .services__text--container {
     margin: 8px 0 0 16px;
 }
+
+.service__subtitle {
+    color: rgba(36, 62, 99);
+}
+
+.service__description {
+color: rgba(124, 139, 161);
+line-height: 2;
+width: 100%;
+max-width: 210px;
+margin-top: 16px;
+font-weight: 500;
+}
